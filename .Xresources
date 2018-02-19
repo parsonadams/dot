@@ -1,0 +1,80 @@
+! ROFI options
+rofi.lines: 5
+rofi.width: 20
+rofi.hide-scrollbar: true
+
+! ROFI color theme
+rofi.color-enabled: true
+rofi.color-window: #273238, #273238, #1e2529
+rofi.color-normal: #273238, #c1c1c1, #273238, #394249, #ffffff
+rofi.color-active: #273238, #80cbc4, #273238, #394249, #80cbc4
+rofi.color-urgent: #273238, #ff1844, #273238, #394249, #ff1844
+
+! urxvt terminal
+! Text color
+*foreground: #85929E
+*foreground_bold: #2980B9
+*background: #1b1918
+
+! colors
+!! black
+*color0: #000000
+*color8: #3f3f3f
+
+!! red
+*color1: #FF0000
+*color9: #922B21
+
+!! green
+*color2: #00FF00
+*color10: #186A3B
+
+!! yellow
+*color3: #FFFF00
+*color11: #F4D03F
+
+!! blue
+*color12: #2980B9
+*color4: #2874A6
+
+!! magenta
+*color5: #FF00FF
+*color13: #FF00FF
+
+!! cyan
+*color6: #800080
+*color14: #7D3C98
+
+!! white
+!! color 7 control hostname on neofetch
+*color7: #800080
+*color15: #f3f4f5
+
+URxvt.intensityStyles:	false
+URxvt.background:       [90]#000000
+URxvt.highlightTextColor: #FF00FF 
+URxvt.depth:		32
+URxvt.font: 		xft:DejaVu Sans Mono:size=14
+URxvt.letterSpace:      -1
+URxvt.cursorBlink:      true
+URxvt.scrollBar:	false
+URxvt.secondaryScreen:  1
+URxvt.secondaryScroll:  0
+URxvt.secondaryWheel:   1
+URxvt.cursorColor:      magenta 
+URxvt.mouseWheelScrollPage: true
+URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
+URxvt.perl-lib:		$HOME/.config/Scripts
+URxvt.url-launcher:	/usr/bin/xdg-open
+URxvt.matcher.button:	1
+URxvt.keysym.M-u:       perl:url-select:select_next
+URxvt.url-select.launcher: /usr/bin/xdg-open
+URxvt.url-select.underline: true
+
+! Resize font
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.resize-font.smaller:	C-k
+URxvt.resize-font.bigger:	C-j
+
+URxvt.colorUL:		#4682B4
