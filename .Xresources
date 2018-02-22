@@ -54,13 +54,16 @@ URxvt.intensityStyles:	false
 URxvt.background:       [90]#000000
 URxvt.highlightTextColor: #FF00FF 
 URxvt.depth:		32
-URxvt.font: 		xft:DejaVu Sans Mono:size=14
+URxvt.font: 		xft:Noto Mono:size=12
 URxvt.letterSpace:      -1
 URxvt.cursorBlink:      true
 URxvt.scrollBar:	false
 URxvt.secondaryScreen:  1
 URxvt.secondaryScroll:  0
 URxvt.secondaryWheel:   1
+URxvt*scrollTtyOutput:  false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress:true
 URxvt.cursorColor:      magenta 
 URxvt.mouseWheelScrollPage: true
 URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
